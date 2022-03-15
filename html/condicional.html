@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional</title>
+</head>
+<body>
+    <h1>Utilizando a Estrutura Condicional</h1>
+    <br>
+    <p>
+        Basicamente utilizamos a estrutura condicional ou estrutura de condição quando se tem a nescessidade de se trazer um resultado porem tendo que comprir com a condição definida ou seja basicamente definimos uma condição a ser aplicada no sistema, dependendo de qual condição for cumprida ele retornara um resultado em expecifico <br><br>
+
+
+        Basicamente podemos definir uma estrutura condicional com 3 ou mais condições sendo assim a sua estrutura basica segue o seguinte parametro <br><br>
+
+        <pre>
+            <code>
+                let cor = color =>{
+                    if(color === 'branco'){
+                        return 'branco'
+                    }
+                    else if(color === 'amarelo'){
+                        return 'amarelo'
+                    }
+                    else{
+                        return 'cor indefinida'
+                    }
+                }
+                
+                console.log(cor('verde'))
+            </code>
+        </pre><br>
+
+        Observa-se que o codigo definido acima foi passado para dentro de uma função uma estrutura condicional ou seja essa função recebeu um valor que foi passado pela estrutura condicional e por não comprido com nenhuma das condições definidas ele retornou o valor contido dentro do "else" <br><br>
+
+        Basicamente em estruturas condicionais utilizamos 3 atributos para definir as condições. <br><br>
+
+        1º <strong>if :</strong> basicamente nesse atributo definimos a primeira condição a ser aplicada <br><br>
+
+        2º <strong>else if :</strong> basicamente utilizamos esse atributo quando se tem a nescessiade de se definir mais do que duas condições. <br><br>
+
+        3º <strong>else :</strong> basicamente nesse atributo não e nescessario atribuir nenhuma condição ou seja nesse caso, caso o valor não cumpra com nenhuma das condições definida acima ele ira cair aqui no "else" sendo assim retornando o valor definido dentro dele 
+    </p>
+
+    <h2>Utilizando operadores logicos</h2>
+    <p>
+        Tanto em estruturas condicionais com em laços de repetições são utilizados operadores logicos para fazerem comparações de um elemento com o outro <br><br>
+
+        <strong>= :</strong> basicamente esse operador definir que um elemento ira receber o outro ou seja esta atribuindo o valor de um elemento a outro <br><br>
+
+        <strong>== :</strong> basicamente esse operador compara se os valores são iguais ou seja nesse caso ele não leva em consideração o tipo do valor definido ou seja se o valor se trata de um valor do tipo "string" ou "numerico" <br><br>
+
+        <strong>=== :</strong> basicamente esse operador e similar ao "==" ou seja e utilizado para comparar valores, o seu diferencial e que ele compara não so o valor mais tambem o tipo do valor. <br><br>
+
+        <strong>!= :</strong> basicamente esse operador compara se um valor e diferente do outro <br><br>
+
+        <strong>!== :</strong>basicamente esse operador e similar ao "!=" ou seja ele e utilizado para comparar se um valor e diferente de outro, o seu diferencial e que ele não compara somente o valor mas tambem o tipo do valor. <br><br>
+
+        <strong>> :</strong>basicamente esse operador compara se um valor e maior que o outro <br><br>
+
+        <strong>< :</strong>basicamente esse operador compara se um valor e menor que o outro <br><br>
+
+        <strong>>= :</strong>basicamente esse operador compara se um valor e maior ou igual ao o outro <br><br>
+
+        <strong><= :</strong>basicamente esse operador compara se um valor e menor ou igual ao o <br><br>
+
+        <strong>++ :</strong>basicamente esse operador incrementa o valor ou seja ele acrescenta (+1) no valor que recebeu esse operador <br><br>
+
+        <strong>-- :</strong>basicamente esse operador decrementa o valor ou seja ele retira (-1) no valor que recebeu esse operador <br><br>
+
+        <strong>|| :</strong>basicamente esse operador logico ("or" ou "||") e utilizado quando se tem a nescessidade de se realizar duas comparações dentro de uma condição ou seja nesse caso independente se uma das comparações forem cumpridas essa condição sera chamada. <br><br>
+
+        <strong>&& :</strong>basicamente esse operador logico ("and" ou "&&") e similar ao operador "||" o seu diferencial e que no caso dele para que a condição seja chamada e nescessario que todas as comparações sejam verdadeiras.
+    </p>
+</body>
+</html>
